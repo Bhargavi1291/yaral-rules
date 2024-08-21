@@ -1,0 +1,25 @@
+name: Check UDM Fields
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-udm:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+     
+
+      - name: Run UDM Field Check
+        run: |
+          python3 check_udm_fields.py
