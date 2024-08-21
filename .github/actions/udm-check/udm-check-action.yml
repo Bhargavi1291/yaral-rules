@@ -1,5 +1,0 @@
-name: UDM Field Check
-description: Checks if UDM fields using '!=' have a corresponding check for '!= ""'.
-runs:
-  using: 'node12'
-  main: 'index.js'
