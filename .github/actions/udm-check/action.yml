@@ -1,0 +1,5 @@
+name: UDM Field Check
+description: Checks if UDM fields using '!=' have a corresponding check for '!= ""'.
+runs:
+  using: 'python3'
+  main: 'check_udm_fields.py'
