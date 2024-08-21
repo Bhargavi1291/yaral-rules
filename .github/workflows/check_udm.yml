@@ -22,4 +22,4 @@ jobs:
 
       - name: Run UDM Field Check
         run: |
-          python3 check_udm_fields.py
+          python3 actions/udm-check/check_udm_fields.py
