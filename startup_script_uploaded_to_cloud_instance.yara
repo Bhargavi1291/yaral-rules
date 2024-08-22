@@ -1,4 +1,4 @@
-rule startup_script_uploaded_to_cloud_instance
+rule startup_Script_uploaded_to_cloud_instance
 {
     meta:
      subject = "startup script uploaded to cloud instance"
